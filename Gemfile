@@ -11,6 +11,8 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
+# Use Slim for .html .erb assets and views
+gem "slim-rails"
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
@@ -39,6 +41,6 @@ gem 'paperclip', '~> 4.1.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use debugger
+# Use debugger 
 # gem 'debugger', group: [:development, :test]
 
