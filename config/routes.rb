@@ -10,9 +10,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   get '/admin' => 'admin#index'
 
-  root 'home#index'
-  resources :projects do
-    resources :articles
+  root 'static_pages#homes'
   end
 
   # Example of regular route:
