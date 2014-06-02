@@ -1,1 +1,11 @@
 - content_for :title, 'Home'
+.home
+  .row.full-width#jumbotron
+    .small-12.column
+      = render 'static_pages/home/jumbotron'
+  .row.full-width#who
+   .small-12.column
+      = render 'static_pages/home/who'
+  .row.full-width#achievements
+   .small-12.column
+      = render 'static_pages/home/achievements'

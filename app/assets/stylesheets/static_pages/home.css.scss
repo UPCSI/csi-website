@@ -1,0 +1,16 @@
+.home{
+  #jumbotron{
+    padding-top: 100px;
+    background-color: $topbar-bg-color;
+    text-align: center;
+    height: 500px;
+
+    h1, p{
+      color: #F7F7F7;
+    }
+
+    h3{
+      color: #3B453D;
+    }
+  }
+}

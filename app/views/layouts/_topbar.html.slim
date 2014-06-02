@@ -1,18 +1,19 @@
 .fixed
-  nav.top-bar data-topbar=""
-    ul.title-area
-      li.name
-        h1
-          = link_to 'Center for Student Innovations', root_path
-      li.toggle-topbar.menu-icon
-        a href="#"
-          span
+  .top-bar-wrapper
+    nav.top-bar data-topbar=""
+      ul.title-area
+        li.name
+          h1
+            = link_to 'Center for Student Innovations', root_path
+        li.toggle-topbar.menu-icon
+          a href="#"
+            span
 
-    section.top-bar-section
-      ul.right
-        li
-          = link_to 'News', 'http://news.csi.upd.edu.ph'
-        li
-          = link_to 'About', about_path
-        li
-          = link_to 'Contact Us', contact_path
+      section.top-bar-section
+        ul.right
+          li
+            = link_to 'News', 'http://news.csi.upd.edu.ph'
+          li
+            = link_to 'About', about_path
+          li
+            = link_to 'Contact Us', contact_path
