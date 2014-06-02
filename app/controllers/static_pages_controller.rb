@@ -9,6 +9,6 @@ class StaticPagesController < ApplicationController
   end
 
   def contact_us
-    render 'static_pages/about/index'
+    render 'static_pages/contact_us/index'
   end
 end
