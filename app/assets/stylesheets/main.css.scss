@@ -24,4 +24,12 @@ body{
   .top-bar-wrapper{
     border-bottom: 1px solid #3B453D;
   }
+
+  footer{
+    background-color: $topbar-bg-color;
+    ul{
+      list-style: none;
+      padding-left: 0;
+    }
+  }
 }
