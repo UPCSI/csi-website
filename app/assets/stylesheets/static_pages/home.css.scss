@@ -1,15 +1,25 @@
+$jumbotron-bg-color: $topbar-bg-color;
+
 .home{
   #jumbotron{
-    padding-top: 100px;
-    background-color: $topbar-bg-color;
-    text-align: center;
+    background-color: $jumbotron-bg-color;
+    padding-top: 25px;
     height: 460px;
+    text-align: center;
 
-    h1, p{
+    #main-title{
       color: #F7F7F7;
     }
 
-    h4{
+    #main-logo{
+      margin: auto;
+      width: 125px;
+      height: 150px;
+      border: 1px solid red;
+    }
+
+    #tag-line{
+      margin-top: 10px;
       color: #3B453D;
     }
   }
