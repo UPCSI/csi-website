@@ -3,17 +3,25 @@ footer
     .small-12.column
       h3 Our Site
       ul
-        li Home
-        li News
-        li About
-        li Contact Us
+        li
+          = link_to 'Home', root_path 
+        li
+          = link_to 'News', 'http://www.news.csi.upd.edu.ph'
+        li
+          = link_to 'About', about_path
+        li
+          = link_to 'Contact Us', contact_path
     .small-12.column
       h3 Affiliations
       ul
-        li University of the Philippines
-        li UP Diliman
-        li College of Engineering
-        li Department of Computer Science
+        li
+          = link_to 'University of the Philippines', 'http://www.up.edu.ph'
+        li
+          = link_to 'UP Diliman', 'http://www.upd.edu.ph'
+        li
+          = link_to 'College of Engineering', 'http://coe.upd.edu.ph'
+        li
+          = link_to 'Department of Computer Science', 'http://dcs.upd.edu.ph'
     .small-12.column
       h3 Connect
       ul
@@ -21,3 +29,6 @@ footer
         li Twitter
         li Linked In
         li Ask.fm
+  .row#copyright
+    .small-12.column
+      p Copyright &copy; DCS-CSI 2014 | All Rights Reserved

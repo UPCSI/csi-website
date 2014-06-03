@@ -27,9 +27,24 @@ body{
 
   footer{
     background-color: $topbar-bg-color;
+    
+    a {
+      color: $body-font-color;
+  
+      &:hover {
+        color: $body-font-color;
+        text-decoration: underline; 
+      }
+    }
     ul{
       list-style: none;
       padding-left: 0;
+    }
+
+    #copyright{
+      p{
+        font-size: 0.75em; 
+      }
     }
   }
 }
