@@ -22,7 +22,7 @@ body{
   }
 
   .top-bar-wrapper{
-    border-bottom: 1px solid #3B453D;
+    border-bottom: 1px solid #ccc;
   }
 
   footer{
@@ -42,6 +42,7 @@ body{
     }
 
     #copyright{
+      margin: auto;
       p{
         font-size: 0.75em; 
       }
